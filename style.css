@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+   
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background-color: #e677d5;
+    border-radius: 24px; 
+}
+.logo{
+    width: 100%;
+    float: left;
+}
+.logo-img{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.titulo-logo{
+    float: inherit;
+    margin-left: 15%;
+}  
+.textInput{
+    float:left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width:79%;
+    height: 79%;
+    font-size: 24px;
+    background: aqua;
+    border-radius: 15px;
+}   
+.left{
+    float: left;
+    width: 50%;
+    height: 74%;
+    border-radius: 15px;
+    background-color: aquamarine;
+    border-color: #000000;
+}
+.right{
+    float: right;
+    width: 50%;
+    height: 74%;
+    border-radius: 15px;
+   
+}
+.mensaje{
+    float: left;
+    margin-left: 10%;
+    color: #000000;
+    width: 80%;
+    height: 80%;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px; 
+    background: aquamarine;
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: 15%;
+    border-radius: 15px;
+}
+.encriptar{
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #710a62;
+}
+.desencriptar{
+    padding: 2px;
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #4e909f;
+   
+}
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 5%;
+    padding: 24px;
+    width: 40%;
+    background:rgb(192, 192, 73);
+    border-radius: 24px;
+}
+#aviso{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
